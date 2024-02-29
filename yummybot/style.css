@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap'); 
+ 
+ 
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: #fff;
+    padding: 20px 0;
+}
+
+
+header .nav-item a{
+text-decoration: none;
+list-style: none;
+color: #000;
+
+}
+header .nav-item {
+    text-decoration: none;
+    list-style: none;
+    margin-top: 20px;
+}
+
+header .btns a{
+    text-decoration: none;
+    list-style: none;
+    border: 1px solid red;
+    color: #fff;
+    background: red;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+header .logo h1 {
+    font-size: 28px;
+    color: #000;
+    list-style: none;
+    text-decoration: none;
+}
+header .logo a{
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #000;
+}
+
+
+header .logo h1 span {
+    color: red;
+}
+
+
+
+/*section2*/
+
+#hero {
+
+    background-color: #eee;
+    padding: 80px 0 ;
+}
+
+#hero .btn button{
+    background: red;
+    color: #fff;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 8px;
+
+}
+
+#hero h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family:"Amatic SC",sans-serif;
+    font-weight: bold;
+    
+}
+#hero p {
+    color: #4f4f5a;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+.basliq {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.basliq h2 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: #7f7f90;
+}
+.basliq p {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+
+
+
+#about{
+padding: 80px 0 ;
+}
+#about .card{
+    border: none;
+}
+
+#about .basliq  {
+    font-family: "Amatic SC",sans-serif;
+}
+#about .basliq span {
+    color: #ce1212;
+}
+#about .call-us {
+    left: 10%;
+    right: 10%;
+    bottom: 10%;
+    background-color: #fff;
+    box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    text-align: center;
+}
+#about .about-img {
+    min-height: 500px;
+   
+}
+#about .about-img img{
+    width: 100%;
+    height: 100%
+}
+#about .card ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+
+
+
+
+
+#why{
+    padding: 80px 0;
+    background: #eee;
+
+}
+#why .boxer{
+    text-align: center;
+    background: #fff;
+    padding: 40px 30px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(55, 55, 63, 0.1);
+    color: white;
+    background-color: red;
+}
+#why .box {
+    text-align: center;
+    background: #fff;
+    padding: 40px 30px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(55, 55, 63, 0.1);
+
+}
+#why .button button {
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    background: #ce1212;
+    border: 1px solid #ce1212;
+}
+
+
+/*sekil*/
+
+#task {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./stats-bg.jpg) center center;
+    background-size: cover;
+    padding: 100px 0;
+    background-attachment: fixed;
+}
+
+#task .row ul{
+    list-style: none;
+   
+    color: #fff;
+     display: flex;
+     justify-content: space-between;
+}
+
+#testimonials{
+    background-color: #eee;
+    padding: 80px 0;
+}
+#testimonials .title h2{
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: #7f7f90;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+}
+#testimonials .title p{
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    font-size: 40px;
+    font-family:"Amatic SC",sans-serif;
+}
+#testimonials .title span{
+    color: red;
+    font-family:"Amatic SC",sans-serif;
+    
+}
+#testimonials .test-card p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+#testimonials .test-card h3{
+  font-size: 24px;
+  color: #000;
+ 
+}
+#testimonials .test-card h4{
+    font-size: 14px;
+     
+}
+
+#testimonials .row img{
+    overflow: hidden;
+    width: 100%;
+    padding: 20px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+
+#event{
+    padding: 80px 0;
+    
+}
+#event .basliq{
+   font-size: 48px;
+   font-family:"Amatic SC",sans-serif ;
+}
+#event .basliq span{
+    color: #ce1212;
+}
+
+#event .images{
+    background-image: url(./events-1.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+    padding: 30px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    box-sizing: content-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+#chefs{
+    background: #eee;
+    padding: 80px 0;
+   
+}
+.basliq {
+    text-align: center;
+    padding-bottom: 30px;
+}
+#chefs .chef-member{
+    border: 1px solid #fff;
+    background: #fff;
+    text-align: center;
+    font-style: italic;
+
+}
+#chefs .member-info h4{
+    font-weight: bold;
+}
+
+.basliq h2 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: #7f7f90;
+}
+
+.basliq p {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: "Amatic SC",sans-serif;
+}
+.basliq p span {
+    color: #ce1212;
+    font-family: "Amatic SC",sans-serif;
+}
+.chefs .chef-member {
+    overflow: hidden;
+    text-align: center;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 0 30px rgba(55, 55, 63, 0.08);
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.book-a-table .php-email-form {
+    padding: 40px;
+   
+}
+#book-a-table{
+    padding: 80px 0;
+   
+}
+#book-a-table .text-center button{
+    border: 1px solid #ce1212;
+    color: #fff;
+    background-color: #ce1212;
+    padding: 12px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+#contact{
+    padding: 80px 0;
+}
+
+#contact .item {
+    background: #f4f4f4;
+    padding: 30px;
+    height: 100%;
+    font-size: 12px;
+}
+#contact .item h3 {
+    font-size: 20px;
+    color: #6c757d;
+    font-weight: 700;
+}
+#contact form{
+    margin-top: 30px;
+    border: 1px ;
+}
+
+#contact .text-center button{
+    color: #fff;
+    border: 1px solid #ce1212;
+    background-color: #ce1212;
+    padding: 12px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+#footer {
+    font-size: 14px;
+    color: #fff;
+    background-color: #1f1f24;
+    padding: 50px 0;
+}
+#footer .social{
+    gap: 5px;
+}
+#footer h4 {
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
